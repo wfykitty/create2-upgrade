@@ -23,8 +23,6 @@ git clone https://github.com/GeorgeBrownCollege-Toronto/Advanced-Smart-Contracts
 2. install packages: npm install
 3. update the `test/test-springboard.js` file to add logic to upgrade the Wallet contract to WalletV2
 4. after the upgrade, verify that the wallet version is 2.0
-5. commit your changes to GitHub and submit your GitHub url
->If your repository is private, invite me to collaborate using my GitHub handle @dhruvinparikh93
 
 ## Special notes
 The contracts created by the Springboard contract do not initialize the state variable in the constructor. You will need to create a regular function (not constructor) to initialize the variables instead
